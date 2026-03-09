@@ -148,7 +148,18 @@ class FoodDetailPage extends StatelessWidget {
                         ),
                       ),
 
-                    const SizedBox(width: 40),
+                      const SizedBox(width: 40),
+
+                          Text(
+                              "1",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize:20,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+
+                      const SizedBox(width: 40),
 
                       SizedBox(
                         width:  60,
@@ -180,6 +191,17 @@ class FoodDetailPage extends StatelessWidget {
                           ),
                         ),
                       ),
+
+                      const SizedBox(width: 140),
+
+                            Text(
+                              "Total Harga",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize:20,
+                                fontWeight: FontWeight.normal,
+                              ),
+                            ),
                     ],
                   ),
 
